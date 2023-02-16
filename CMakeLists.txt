@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 project(triangle)
 
-option(BUILD_EXECUTABLE "Build triangle executable" OFF)
+option(BUILD_EXECUTABLE "Build triangle executable" ON)
 option(BUILD_LIBRARY    "Build libtriangle library" ON)
 
 if(BUILD_LIBRARY)
